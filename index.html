@@ -1,32 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <title>Barbearia Alura</title>
-        <link rel="stylesheet" href="style-home.css">
+        <link rel="stylesheet" href="reset.css/reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <header><h1 class="titulo-principal">Barbearia Alura</h1></header>
-        <img id="banner" src="imagens/banner.jpg">
-        <div class="principal">
-            <h2 class="titulo-centralizado">A Barbearia Alura</h2> 
+        <header>
+            <div class="caixa">
+                <h1><img src="imagens/logo.png" alt="Logo Barbearia Alura"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <img class="banner" src="Imagens/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png">
+
+        <section class="principal">
+
+            <h2 class="titulo-principal">A Barbearia Alura</h2> 
+
+            <img src="imagens/utensilios.jpg" class="utensilios" alt="Utensilios de um Barbeiro">
 
             <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
         
-            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+            <p class="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
         
             <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo-principal">Nosso estabelecimento</h3>
+            <p>Nossa localização fica no coração da cidade !</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14670.215146274391!2d-46.893238168896154!3d-23.186480432166952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2693ec6d0493%3A0x5687e5818c079a17!2sCentro%2C%20Jundia%C3%AD%20-%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1646842398570!5m2!1sen!2sbr" width="100%" height="400" style="border:1px solid;" allowfullscreen="" loading="lazy" class="mapinha"></iframe>
+        </section>
+
+        <section class="beneficios">
+            <h3 class="titulo-principal">Benefícios</h3>
+            <ul>
+                <li class="lista">Atendimento aos clientes</li>
+                <li class="lista">Espaço diferenciado</li>
+                <li class="lista">Localização</li>
+                <li class="lista">Profissionais qualificados</li>
+            </ul>
+            <img src="Imagens/beneficios.jpg" class="imagembeneficios">
+        </section>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="beneficios">
-        <h3 class="titulo-centralizado">Benefícios</h3>
-        <ul>
-            <li class="lista">Atendimento aos clientes</li>
-            <li class="lista">Espaço diferenciado</li>
-            <li class="lista">Localização</li>
-            <li class="lista">Profissionais qualificados</li>
-        </ul>
-        <img src="Imagens/beneficios.jpg" class="imagembeneficios">
-        </div>
+        <footer>
+            <img src="imagens/logo-branco.png" alt="Logo Barbearia Alura">
+            <p class="copyright">&copy: Copyrigth Barbearia Alura - 2019</p>
+
+        </footer>
+
     </body>
 
    
