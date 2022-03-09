@@ -1,48 +1,152 @@
-
-#banner {
-    width: 100%;
+header {
+    background: #BBBB;
+    padding: 20px;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.titulo-principal{
-    padding-left: 30px;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-.titulo-centralizado {
-    text-align: center;
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
 }
 
-p {
-    text-align: center;
+nav a:hover{
+    text-decoration: underline;
+    color: #CD9B1D;
 }
 
-#missao {
-    font-size: 20px
+.produtos li:hover{
+    border-color: #CD9B1D;
 }
 
-em strong {
-    color: red;
+.produtos li:active{
+    border-color: #008B8B;
 }
 
-.lista {
-    font-style: italic;
+.produtos li:hover h2{
+    font-size: 34px;
 }
 
-ul {
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-.beneficios {
-    background:#FFFFFF;
-    padding: 30px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: #000000 solid 5px;
+    border-radius: 30px;
 }
 
-.imagembeneficios {
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-image: url("imagens/bg.jpg");
+    padding: 40px;
+}
+
+.copyright{
+    color: antiquewhite;
+    font-size: 12px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,form p {
+    display: block;
+    font-size: 20px;
+    margin:0 0 5px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 15px;
+    padding: 15px ;
+    border-radius: 10px;
+    width: 60%;
+}
+
+#horario-atendimento{
+    margin-top: 20px;
+}
+
+.checkbox {
+    margin: 30px 0;
+}
+
+.enviar {
     width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: 2s all;
+
+}
+
+.enviar:hover {
+    background: red;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 22px;
+}
+
+thead {
+    background-color: #CCCCCC;
+    
+}
+
+td, th {
+    border: solid black 1px;
+    padding: 8px 15px;
 }
